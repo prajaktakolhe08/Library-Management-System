@@ -144,6 +144,46 @@ To run unit tests:
 python manage.py test
 ```
 
+## Screenshots
+
+### 🔐 Admin Operations
+
+**Admin Signup**
+
+<img alt="Homepage" src="https://github.com/user-attachments/assets/76a2ebad-c5c0-4892-9744-9c3b91829acc" width="500">
+<img alt="Homepage" src="https://github.com/user-attachments/assets/863dc9f8-244f-4ef1-b9a0-b3762aa42439" width="500">
+
+**Admin Login**
+
+<img alt="Homepage" src="https://github.com/user-attachments/assets/aa3c1d22-dfc9-48db-b95d-1ea6516c440e" width="500">
+<img alt="Homepage" src="https://github.com/user-attachments/assets/9189e5ea-7c22-48ca-a314-bd60a57d10fd" width="500">
+
+**Create Book**
+
+<img alt="Homepage" src="https://github.com/user-attachments/assets/66de1eab-4400-4f99-b447-c78282d8ab2d" width="500">
+<img alt="Homepage" src="https://github.com/user-attachments/assets/c10433fd-b183-4b75-a4c2-ae1ab2e30e98" width="500">
+
+**Update Book**
+
+<img alt="Homepage" src="https://github.com/user-attachments/assets/2bb9a743-a614-4c90-a947-3ef5a1125d63" width="500">
+<img alt="Homepage" src="https://github.com/user-attachments/assets/a6016270-241a-4694-94b2-5aa8becb8537" width="500">
+
+**Delete Book**
+
+<img alt="Homepage" src="https://github.com/user-attachments/assets/3d96a539-1362-44ae-a169-53f651e78e81" width="500">
+<img alt="Homepage" src="https://github.com/user-attachments/assets/78d86de9-1ef8-4746-8f0f-0b5b0a26a533" width="500">
+
+**List of Books (Admin)**
+
+<img alt="Homepage" src="https://github.com/user-attachments/assets/0a61681d-d42a-4a41-8818-ab2b7e2150f6" width="500">
+
+
+### 🎓 Student View
+
+**View Available Books**
+
+<img alt="Homepage" src="https://github.com/user-attachments/assets/7a3c356c-2048-4dd7-b830-2ecf82566db0" width="500">
+
 ## Assumptions & Considerations
 
 1. Admin user requires email, username, and password for signup.
