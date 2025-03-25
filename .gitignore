@@ -1,0 +1,53 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtual Environment
+venv/
+env/
+*.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django-related
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+migrations/**/0*.py  # Ignore initial migrations
+
+# VS Code & IDE Configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore environment and local settings files
+.env
+*.env
+settings_local.py
+.env.example
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled test results or coverage
+coverage/
+htmlcov/
+*.cover
+*.py,cover
+
+
+
