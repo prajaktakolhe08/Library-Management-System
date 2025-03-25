@@ -1,31 +1,31 @@
 # 📚 Library Management System
 
-## 📝 Overview
+## Overview
 This project is a **Library Management System** built using **Django 5.1.1** and **Django REST Framework (DRF)**. The application includes Admin functionality to manage books and a Student view to explore available books. The project uses MySQL as the database. The system provides the following functionalities:
 
-### 🔐 Admin Operations
+### Admin Operations
 - **Admin Signup:** Create a new admin account using email, username, and password.
 - **Admin Login:** Authenticate admin and return a token for future requests.
 
-### 📚 Book Management
+### Book Management
 - **Create:** Admin can add new books.
 - **Read:** Retrieve a list of all available books.
 - **Update:** Admin can modify book details.
 - **Delete:** Admin can delete a book record.
 
-### 🎓 Student View
+### Student View
 - Provides a UI where students can view all available books with search functionality.
 
----
-
-## 🚀 Tech Stack
+## Tech Stack
 - **Backend:** Django, Django REST Framework
 - **Database:** MySQL
 - **Frontend** Django Templates (HTML, CSS, Bootstrap)
 
----
+## Demo
 
-## 📁 Project Structure
+<table> <tr> <td width="65%"> <video src="https://github.com/user-attachments/assets/b1450434-33fc-425e-b825-5eab4debe063" controls width="100%"></video> </td> <td width="35%"> The demo showcases: - 🔐 **Admin Authentication**: Admin can sign up and log in to manage the library. - 📚 **Book Management**: Admin can add, update, delete, and view books. - 🎨 **Student View**: Students can search and explore the list of available books. - 📄 **RESTful API Operations**: Endpoints allow CRUD operations using Django REST Framework (DRF). - ✅ **Token-Based Authentication**: Secure login and token-based access for APIs. </td> </tr> </table>
+
+## Project Structure
 ```
 Library_System/
 ├── books/
@@ -48,13 +48,11 @@ Library_System/
 └── README.md 
 ```
 
----
-
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/library-management-system.git
+git clone https://github.com/yourusername/Library-Management-System.git
 cd library-management-system
 ```
 
@@ -97,9 +95,7 @@ python manage.py runserver
 ```
 Visit http://127.0.0.1:8000/ to see the book listing.
 
----
-
-## 🔥 API Endpoints
+## API Endpoints
 
 ### Admin Operations
 | Method | Endpoint           | Description        |
@@ -120,29 +116,20 @@ Visit http://127.0.0.1:8000/ to see the book listing.
 |--------|--------------|-------------------|
 | GET    | /            | View book list UI |
 
----
-
-## 🎨 Student UI
+## Student UI
 The student view provides a clean and modern UI to display the list of available books with a search option.
 
----
-
-## 🧪 Running Tests
+## Running Tests
 To run unit tests:
 ```bash
 python manage.py test
 ```
 
----
-
-## 📄 Assumptions & Considerations
+## Assumptions & Considerations
 1. Admin user requires email, username, and password for signup.
 2. Only authenticated admins can perform CRUD operations on books.
 3. Students can only view book records.
 
----
-
-
-## 🤝 Contributors
+## Contributors
 - **Prajakta Kolhe**
 
